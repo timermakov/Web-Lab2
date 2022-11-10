@@ -1,0 +1,30 @@
+.table-check{
+    color: rgb(51, 153, 255);
+    margin: 20px auto;
+    border: 1px solid rgb(51, 153, 255);
+    background-color: black;
+}
+
+.table-header th {
+    padding: 5px 25px 5px 25px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.table-row  td {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.table-row:nth-of-type(odd){
+    margin: 0;
+    background-color: white;
+}
+
+.container-table{
+    margin: 30px auto 100px auto;
+    padding: 20px 10px 10px 5px;
+    display: table;
+    text-align: center;
+}

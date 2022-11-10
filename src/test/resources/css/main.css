@@ -1,0 +1,67 @@
+.container {
+    margin: 30px auto auto;
+    background-color: ghostwhite;
+    padding: 20px;
+    display: table;
+    text-align: center;
+    box-shadow: 0 0 10px 1px black;
+    scroll-behavior: auto;
+}
+
+/*
+    Отвечает за график (левая часть контейнера)
+*/
+.svg-wrapper {
+    border: 2px solid rgb(51, 153, 255);
+    box-shadow: 0 0 5px 0 darkblue;
+    border-radius: 20%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.svg-wrapper-container {
+    background-image: url(../svg/graph.svg);
+    background-repeat: no-repeat;
+}
+
+/*
+    Ввод данных (Правая часть)
+*/
+.inputs{
+    background-color: rgb(51, 153, 255);
+    padding: 1px 50px 15px 50px;
+    border-radius: 5%;
+}
+
+.text-center{
+    margin: auto 30px;
+    display: inline-block;
+}
+
+.text-center-button{
+    display: inline-block;
+}
+
+.text-input{
+    text-align: center;
+}
+
+/*
+    Для кнопок отправки и очистки таблицы
+*/
+.special-button button{
+    color: white;
+    margin: 20px 5px 0;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.special-button button:hover{
+    color: black;
+    transition: 0.5s;
+    border: 2px solid darkblue;
+    background-color: ghostwhite;
+}

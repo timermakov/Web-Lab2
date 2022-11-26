@@ -18,7 +18,7 @@
     <div class="header">
         <div>
             <span class="lab-name">
-                <a target="_blank" href="https://github.com/timermakov/Labs/Web/Lab2">Лабораторная работа №2</a>
+                <a target="_blank" href="https://github.com/timermakov/Web-Lab2">Лабораторная работа №2</a>
             </span>
         </div>
         <div>

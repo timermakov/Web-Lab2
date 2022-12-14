@@ -1,4 +1,4 @@
-package ru.timermakov.servlet;
+package ru.timermakov.lab2.servlet;
 
 import jakarta.servlet.http.HttpServletRequest;
 

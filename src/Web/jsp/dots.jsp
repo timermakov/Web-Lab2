@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<jsp:useBean id="entries" scope="session" class="models.Entries"/>
+<jsp:useBean id="entries" scope="session" class="ru.timermakov.lab2.model.Entries"/>
 <c:forEach var="entry" items="${entries.entries}">
     <circle r="3.5"
             cx=${((300 / 2 + (entry.x + 0.02) / entry.r * 100))}

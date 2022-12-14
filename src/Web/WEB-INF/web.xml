@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>ControllerServlet</servlet-name>
-        <servlet-class>servlets.ControllerServlet</servlet-class>
+        <servlet-class>ru.timermakov.lab2.servlet.ControllerServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControllerServlet</servlet-name>

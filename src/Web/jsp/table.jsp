@@ -12,7 +12,7 @@
     </tr>
     </thead>
     <tbody>
-    <jsp:useBean id="entries" scope="session" class="models.Entries"/>
+    <jsp:useBean id="entries" scope="session" class="ru.timermakov.lab2.model.Entries"/>
     <c:forEach var="entry" items="${entries.entries}">
         <tr class="table-row">
             <td>${entry.x}</td>

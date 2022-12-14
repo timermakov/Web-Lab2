@@ -1,4 +1,4 @@
-package ru.timermakov.model;
+package ru.timermakov.lab2.model;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

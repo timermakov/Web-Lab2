@@ -25,7 +25,7 @@ $(document).ready(function () {
                 'r': r
             },
             success: function () {
-                window.location.href = 'jsp/result.jsp';
+                window.location.href = '../jsp/result.jsp';
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert("Ошибка запроса к серверу");

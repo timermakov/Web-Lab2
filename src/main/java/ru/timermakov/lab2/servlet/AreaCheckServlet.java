@@ -1,7 +1,7 @@
-package ru.timermakov.servlet;
+package ru.timermakov.lab2.servlet;
 
-import ru.timermakov.model.Entries;
-import ru.timermakov.model.Entry;
+import ru.timermakov.lab2.model.Entry;
+import ru.timermakov.lab2.model.Entries;
 
 //import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
